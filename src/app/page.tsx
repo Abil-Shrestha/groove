@@ -1,10 +1,8 @@
 import Image from 'next/image'
-
+import Headerx from '../../components/headerx'
 
 export default function Home() {
   return (
-    <main className="">
-      <h1>Groove music streaming app</h1>
-    </main>
+    <Headerx/>
   )
 }
