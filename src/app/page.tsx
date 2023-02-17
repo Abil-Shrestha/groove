@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Headerx from '../../components/headerx'
+import Sidebar from '../../components/sidebar'
 
 export default function Home() {
   return (
-    <Headerx/>
+    <Sidebar/>
   )
 }
